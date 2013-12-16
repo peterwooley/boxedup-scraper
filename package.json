@@ -1,0 +1,23 @@
+{
+  "name": "boxedup",
+  "version": "0.0.1",
+  "description": "Screen scrape user and list details from Boxedup.com.",
+  "main": "list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "boxedup",
+    "list",
+    "christmas",
+    "birthday",
+    "want",
+    "have"
+  ],
+  "author": "peterwooley@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "~0.12.3",
+    "request": "~2.27.0"
+  }
+}
