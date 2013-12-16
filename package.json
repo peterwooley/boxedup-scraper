@@ -1,5 +1,5 @@
 {
-  "name": "boxedup",
+  "name": "boxedup-scraper",
   "version": "0.0.1",
   "description": "Screen scrape user and list details from Boxedup.com.",
   "main": "list.js",
