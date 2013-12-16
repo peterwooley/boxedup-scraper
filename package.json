@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Screen scrape user and list details from Boxedup.com.",
   "main": "list.js",
+  "engines": [
+    "node >= 0.10.0"
+  ]
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +17,11 @@
     "want",
     "have"
   ],
-  "author": "peterwooley@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterwooley/boxedup-scraper"
+  },
+  "author": "Peter Wooley <peterwooley@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "cheerio": "~0.12.3",
