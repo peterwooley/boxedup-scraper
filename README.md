@@ -3,10 +3,15 @@ Boxedup Scraper
 
 Scrape boxedup.com for a user's lists and the contents of those lists.
 
+## Install
+```bash
+npm install boxedup-scraper
+```
+
 ## Example Usage
 To make a simple CLI scraper:
 ```js
-var boxedup = require('boxedup');
+var boxedup = require('boxedup-scraper');
 
 var options = process.argv.slice(2);
 
